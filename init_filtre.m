@@ -7,7 +7,7 @@ function filtreRIF = init_filtre(simulation,canal,flagt)
 
 % -- Filtre anti-bruit acoustique --
 dt = 1*simulation.dt;     % Pas d'échantillonnage
-NomAlgo = 'sans'; %'sans';         % Algorithme d'adaptation
+NomAlgo = 'RLS'; %'sans';         % Algorithme d'adaptation
 %Init    = 'zero';%'G_0*'; %'G_0*';         % Initialisation de la RI ('zero' ou 'G_0*')
 
 if strcmp(NomAlgo,'sans')

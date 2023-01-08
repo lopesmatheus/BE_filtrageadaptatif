@@ -15,7 +15,7 @@ addpath('Miscellaneous');
 [filtreRIF] = init_filtre(simulation,canal,0);
 
 % Spécification des cas à simuler
-[spec_sim] = specif_simu(2);
+[spec_sim] = specif_simu(1);
 
 % Evaluation des performances
 eval_perf(spec_sim,simulation,filtreRIF);
