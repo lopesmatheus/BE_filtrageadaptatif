@@ -44,5 +44,5 @@ filtreRIF.NomAlgo = NomAlgo;  	% Nom algorithme d'adaptation
 filtreRIF.NumAlgo = NumAlgo;  	% Numero algorithme d'adaptation
 filtreRIF.riG_ini = riG_ini;	% Initialisation de la RI
 filtreRIF.Nx = length(riG_ini);	% Longueur de la RI
-filtreRIF.H_ini = 0.1*eye(length(riG_ini));
+filtreRIF.P_ini = 1*eye(length(riG_ini));
 
